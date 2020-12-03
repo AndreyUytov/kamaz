@@ -114,10 +114,16 @@
   align-items: center;
 }
 
+.indicator__wrapper {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
 .slider-idicator {
   width: 120px;
   height: 2px;
   background: #66666b;
+  transition: all 0.5s;
 
   &--active {
     height: 4px;
