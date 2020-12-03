@@ -21,7 +21,8 @@ html {
 }
 
 body {
-  font-family: 'Gotham';
+  height: 100vh;
+  font-family: 'Rubik';
   font-size: 18px;
   line-height: 26px;
   color: var(--defaultTextColor);
@@ -55,4 +56,34 @@ input[type='radio'].visually-hidden {
   padding: 0;
 
   list-style: none;
+}
+
+.content {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Gotham';
+  font-size: 12px;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+@media (min-width: 1110px) {
+  .content {
+    width: 1110px;
+    margin: 0 auto;
+  }
 }
