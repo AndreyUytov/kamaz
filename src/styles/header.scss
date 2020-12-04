@@ -48,7 +48,19 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1110px) {
+  .header {
+    margin-bottom: 0px;
+
+    box-shadow: none;
+    background: none;
+  }
+
+  .header__logo {
+    width: 245px;
+    height: 44px;
+  }
+
   .header__tel {
     margin-left: 50px;
 
@@ -66,14 +78,5 @@
 
   .header__tel-number {
     display: block;
-  }
-}
-
-@media (min-width: 1110px) {
-  .header {
-    margin-bottom: 0px;
-
-    box-shadow: none;
-    background: none;
   }
 }
