@@ -59,7 +59,7 @@ input[type='radio'].visually-hidden {
 }
 
 .content {
-  width: 360px;
+  min-width: 320px;
   margin: 0 auto;
 }
 
@@ -79,6 +79,12 @@ input[type='radio'].visually-hidden {
   border: none;
 
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .content {
+    min-width: 768px;
+  }
 }
 
 @media (min-width: 1110px) {
