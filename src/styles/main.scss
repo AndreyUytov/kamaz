@@ -44,6 +44,10 @@
   margin-bottom: 32px;
 
   overflow: hidden;
+
+  & img {
+    touch-action: none;
+  }
 }
 
 .main-slider {
