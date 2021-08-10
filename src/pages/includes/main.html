@@ -40,6 +40,21 @@
             />
           </picture>
         </li>
+        <li class="main-slider__item">
+          <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./../../images/kamaz-2x.png 2x,
+                ./../../images/kamaz.png    1x
+              "
+            />
+            <img
+              src="./../../images/kamaz-mob.png"
+              srcset="./../../images/kamaz-mob-2x.png 2x"
+            />
+          </picture>
+        </li>
       </ul>
     </div>
     <div class="main-slider__controlls">
@@ -49,23 +64,13 @@
         </svg>
         <span class="visually-hidden">назад</span>
       </button>
+      <div class="slider-indicator__wrapper"></div>
       <button class="main-slider__snap next">
         <svg class="snap-svg">
           <use href="#next" />
         </svg>
         <span class="visually-hidden">вперед</span>
       </button>
-      <div class="slider-indicator__wrapper">
-        <div class="indicator__wrapper">
-          <div
-            class="slider-idicator slider-idicator--active"
-            data-pic="1"
-          ></div>
-        </div>
-        <div class="indicator__wrapper">
-          <div class="slider-idicator" data-pic="2"></div>
-        </div>
-      </div>
     </div>
     <p class="slider-counter">
       <span class="slider-counter__item slider-counter__item--active">1</span
