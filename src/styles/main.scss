@@ -69,7 +69,7 @@
   overflow: hidden;
 
   & img {
-    touch-action: none;
+    touch-action: pan-y;
   }
 }
 
