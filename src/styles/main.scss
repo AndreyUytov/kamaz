@@ -32,6 +32,29 @@
   color: var(--akcentColor);
 }
 
+.main-list__item-btn {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  color: inherit;
+
+  &:hover {
+    color: var(--akcentColor);
+  }
+
+  &.active {
+    color: var(--akcentColor);
+  }
+}
+
 .main-slider-wrapper {
   display: flex;
   flex-direction: column;
@@ -110,7 +133,6 @@
   flex-shrink: 1;
   width: 100%;
   padding: 10px 0px;
-  cursor: pointer;
 }
 
 .slider-idicator {
